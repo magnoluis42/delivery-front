@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: #ccc;
+    width: 520px;
+    height: 320px;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+.btn{
+    background-color: darkgray;
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    margin: 30px auto 0 auto;
+}
+
+a{
+
+    text-decoration: none;  
+    text-align: center; 
+}
+

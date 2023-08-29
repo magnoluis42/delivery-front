@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 1em;
+    font-family:'Ubuntu', sans-serif;
+}
+
+.topo_site{
+    width: 100%;
+    background-color: #FFC72C;
+}
+
+.topo_site .topo_site_conteudo{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.topo_site .topo_site_conteudo .logo{
+    flex-basis: 130px;
+    padding: 20px;
+    width: 90px;
+}
+
+.topo_site .topo_site_conteudo .logo img{
+    width: 100px;
+}
+
+.topo_site .topo_site_conteudo .topo_site_conteudo_menu{
+    flex-basis: calc(100% - 130px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topo_site_conteudo{
+    display: flex;
+    flex-direction: row;
+}
+
+.topo_site_conteudo_menu ul{
+    display: flex;
+    align-items: stretch;
+}
+
+.topo_site_conteudo_menu ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.topo_site_conteudo_menu ul li a{
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+}
+
+.topo_site_conteudo_menu ul li a:hover{
+    color: #fff;
+    background-color: #fab800;
+}
+
+.cont_pedido{
+    max-width: calc(1300px - 40px);
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cont_pedido article{
+    flex-basis: calc(30% - 30px);
+    border: 1px #ccc solid;
+    margin: 20px 0;
+    text-align: center;
+    padding: 25px 0;
+    border-radius: -100px;
+}
+
+.cont_pedido article p{
+    font-weight: bold;
+}
+
+.promo{
+    background-color: #FFC72C;
+    width: 100%;
+    margin: 25px 0;
+}
+
+.promo .promo_campos{
+    max-width: 1300px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.promo .promo_campos header, .promo .promo_campos form{
+    flex-basis: 50%;
+}
+
+.promo .promo_campos header h1, .promo .promo_campos header p{
+    color: #fff;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.promo .promo_campos header h1{
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+.promo .promo_campos header p{
+    font-weight: 300;
+}
+
+.promo .promo_campos form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo .promo_campos form input[type=text],
+.promo .promo_campos form input[type=email]{
+    flex-basis: 35%;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+}
+
+.promo .promo_campos form button{
+    flex-basis: 20%;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container article{
+    flex-basis: 30%;
+    background-color: #ccc;
+    border: 1px black solid;
+    padding: 3px 1px;
+    margin: 10px auto;
+}
+
+.feed{
+    background-color: #ccc;
+}
+
+.feed article{
+    border: 1px black solid;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.feed article p{
+    font-size: 1.2em;
+}
+*/
